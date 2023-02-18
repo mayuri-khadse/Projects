@@ -1,0 +1,174 @@
+body{
+    font-family: "Arvo";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Arvo";
+}
+/* Headings */
+  
+.big-heading {
+  font-family: "Arvo";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+ /* Sections */
+
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #5B8FB9;
+  color: #fff;
+  padding-bottom: 10px auto;
+}
+
+/* Navigation Bar */
+  
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Arvo";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Arvo";
+}
+
+#title {
+    background-color: #5B8FB9;
+    color: #fff;
+    text-align: left;
+  }
+
+.title-image {
+    width: 60%;
+    position: absolute;
+    right: 10%;
+}
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+.under{ 
+  text-align: center;
+  padding-bottom: 10px;
+}
+hr{
+  
+  border-top: 5px dotted ;
+  color: #c3c6c6;
+  width: 3%;
+  margin: 50px auto;
+}
+/* Contact Us */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mb-5 {
+  margin-bottom: 20px;
+}
+.pt-3 {
+  padding-top: 12px;
+}
+.main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+.form-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  color: #07074d;
+  margin-bottom: 12px;
+}
+
+
+.form-input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  background: white;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7280;
+  outline: none;
+  resize: none;
+}
+.form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.mx-3 {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.px-3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.w-full {
+  width: 100%;
+}
+@media (min-width: 540px) {
+  .sm\:w-half {
+    width: 50%;
+  }
+}
